@@ -1,0 +1,26 @@
+
+modLoader="javafml"
+loaderVersion="[39,)"
+license="Creative Commons Attribution-NonCommercial 3.0"
+[[mods]]
+modId="enchantment_expansion"
+version="0.1a"
+displayName="Enchantment Expansion Mod"
+logoFile="icon.png"
+credits="This Mod made bt Killar.exe"
+authors="Killar.exe" #optional
+description='''Enchantment Expansion Add only enchantments'''
+updateJSONURL="https://raw.githubusercontent.com/Killarexe/Dimensional-Expansion/main/update.json"
+[[dependencies.dimensional_expansion]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[39,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+# Here's another dependency
+[[dependencies.dimensional_expansion]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18,1.19)"
+    ordering="NONE"
+    side="BOTH"
